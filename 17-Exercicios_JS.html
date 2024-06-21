@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="funcoes.js"></script>
+    <title>Exercicio 17</title>
+</head>
+<body>
+    <script>
+        var horas = parseFloat(prompt("Digite a quantidade de horas trabalhadas "))
+        var valor = parseFloat(prompt("Digite valor da sua hora "))
+               
+        document.write("Exercício 17");
+        pulaLinha();
+        document.write("Seu salário é: " + "R$ ", salario(horas, valor).toFixed(2) + " reais");
+        pulaLinha();  
+        
+    </script>
+</body>
+</html>

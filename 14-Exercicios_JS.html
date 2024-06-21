@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="funcoes.js"></script>
+    <title>Exercicio 14</title>
+</head>
+<body>
+    <script>
+        var numero1 = parseFloat(prompt("Digite primeiro numero: "))
+        var numero2 = parseFloat(prompt("Digite segundo numero: "))
+        
+      
+        document.write("Exercício 14");
+        pulaLinha();
+        document.write("A divisão entre esses dois numeros é: " + razao(numero1, numero2).toFixed(2));
+        pulaLinha();  
+        document.write("O resto dessa divisão é: " + resto(numero1,numero2) )
+        
+    </script>
+</body>
+</html>
